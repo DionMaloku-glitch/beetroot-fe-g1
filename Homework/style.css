@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bangers", cursive, sans-serif;
+  background-color: #252525;
+  color: #e0dfdf;
+  text-align: center;
+  height: 100%;
+}
+
+#profilePic {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#personal-info {
+  padding: 5px 0 20px 0;
+  border-bottom: 1px solid #b9b3b3;
+}
+
+#about-me {
+  padding: 20px 0;
+  border-bottom: 1px solid #b9b3b3;
+}
+
+#about-me p {
+  padding-top: 10px;
+  width: 400px;
+  margin: auto;
+}
+
+#edu-train {
+  padding: 20px 0;
+  border-bottom: 1px solid #b9b3b3;
+}
+
+#edu-train p {
+  padding-top: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+#personal-skills {
+  padding: 20px 0;
+  border-bottom: 1px solid #b9b3b3;
+}
+
+#languages {
+  padding: 20px 0;
+  border-bottom: 1px solid #b9b3b3;
+}
+
+#languages p {
+  padding-top: 10px;
+}
+
+#work {
+  padding: 20px 0;
+}
+
+#work p {
+  padding-top: 10px;
+}
+
+#work a {
+  text-decoration: none;
+  color: #e0dfdf;
+}
+
+#work a:hover {
+  cursor: pointer;
+}
+
+#work p {
+  border: 1px solid #e0dfdf;
+  border-radius: 50%;
+  width: 70px;
+  margin: 0 auto;
+  padding: 60px;
+  margin-top: 10px;
+  background-color: #f66e6e;
+}
+
+.listat {
+  margin-top: 20px;
+}
+
+p {
+  word-spacing: 2px;
+}
+
+ul li i {
+  font-size: 25px;
+}
+
+.fa-map-pin {
+  color: #960a0a;
+}
+
+.fa-phone {
+  color: #f04086;
+}
+
+.fa-envelope {
+  color: #ea4335;
+}
+
+.fa-html5 {
+  color: #e34f26;
+}
+
+.fa-css3-alt {
+  color: #2965f1;
+}
+
+.fa-js {
+  color: #f0db4f;
+}
+
+footer {
+  padding-top: 20px;
+}

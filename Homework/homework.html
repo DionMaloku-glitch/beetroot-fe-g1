@@ -4,59 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <form >
-        <fieldset>
-            <legend>CV :</legend>
 
-            <h3>Personal Information</h3>
-            <label>Name:
-                <input type="text" value="Dion">
-            </label> <br> <br>
-            <label>Lastname:
-                <input type="text" value="Maloku">
-            </label> <br> <br>
-            <label>Address:
-                    <input type="text" value="Prishtine, Ulpiane">
-            </label> <br> <br>
-            <label>Contact:
-                    <input type="tel" value="044-140-693">
-            </label> <br> <br>
-            <label>Email:
-                    <input type="email" value="dionn.maloku@outlook.com">
-            </label>
-            <p>About me: <br>Im 20 years old,currently on Bachelor second year.<br> Learning frontend development because I want to continue my career as a programmer.</p>
-            <br> <hr>
-
-            <h3>Education and Training</h3>
-            <p>Bachelor in Computer Science and Engineering, <br> Currently under training.</p> <br> <hr>
-
-            <h3>Personal Skills</h3>
-            <label for="countries">Mother tongue:
-                <select name="" id="countries">
-                    <option value="al">Albanian</option>
-                    <option value="en">English</option>
-                    <option value="ge">German</option>
-                    <option value="sp">Spanish</option>
-                </select>
-            </label> <br> <br>
-            <p>Other Languages you may know:</p>
-            <label for="box">Albanian
-                <input type="checkbox" id="box">
-            </label>
-            <label for="box">English
-                <input type="checkbox" id="box">
-            </label>
-            <label for="box">German
-                <input type="checkbox" id="box">
-            </label>
-            <label for="box">Spanish
-                <input type="checkbox" id="box">
-            </label>
-        </fieldset>
-    </form>
+    <img id="profilePic" src="me.jpg">
+    <div id="personal-info">    
+        <h3>Personal Information</h3>
+            <address>
+                <ul class="listat">
+                    <li>Name: Dion</li>
+                    <li>Lastname: Maloku</li>
+                    <li><i class="fas fa-map-pin"></i> Prishtine,Upliane</li>
+                    <li><i class="fas fa-phone"></i> 044-140-693</li>
+                    <li><i class="fas fa-envelope"></i> dionn.maloku@outlook.com</li>
+                </ul>
+            </address>
+    </div>
+    <div id="about-me">
+        <h3>About me:</h3>
+        <p> Im 20 years old,currently on Bachelor second year.Learning frontend development because I want to continue my career as a programmer.</p>
+    </div>
+    <div id="edu-train">
+        <h3>Education and Training:</h3>
+        <p>Bachelor in Computer Science and Engineering, Currently under training.</p>
+    </div>
+    <div id="personal-skills">
+        <h3>Personal Skills:</h3>
+        <ul class="listat">
+            <li><i class="fab fa-html5"></i> Html</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+            <li><i class="fab fa-js"></i> JavaScript</li>
+        </ul>
+    </div>
+    <div id="languages">
+        <h3>Languages:</h3>
+        <p>Albanian,English</p>
+    </div>
+    <div id="work">
+        <h3>My work:</h3>
+        <p><a href="https://github.com/DionMaloku-glitch/beetroot-fe-g1" target="_blank">Projects</a></p>
+    </div>
 
     <footer>&copy; Dion Maloku Co.</footer>
 </body>
